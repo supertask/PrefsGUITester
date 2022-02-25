@@ -1,0 +1,16 @@
+[submodule "PrefsGUI"]
+	path = PrefsGUI
+	url = https://github.com/fuqunaga/PrefsGUI
+	branch = master
+[submodule "PrefsGUISyncUNET"]
+	path = PrefsGUISyncUNET
+	url = https://github.com/fuqunaga/PrefsGUISyncUNET
+[submodule "Assets/PackageSubmodules/PrefsGUISyncUNET"]
+	path = Assets/PackageSubmodules/PrefsGUISyncUNET
+	url = https://github.com/fuqunaga/PrefsGUISyncUNET
+[submodule "Assets/PackageSubmodules/PrefsGUI"]
+	path = Assets/PackageSubmodules/PrefsGUI
+	url = https://github.com/fuqunaga/PrefsGUI
+[submodule "Assets/PackageSubmodules/RapidGUI"]
+	path = Assets/PackageSubmodules/RapidGUI
+	url = https://github.com/fuqunaga/RapidGUI
