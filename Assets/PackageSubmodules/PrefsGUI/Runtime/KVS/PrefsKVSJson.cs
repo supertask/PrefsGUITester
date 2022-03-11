@@ -61,6 +61,7 @@ namespace PrefsGUI.KVS.Json
                 var kvList = JsonUtility.FromJson<ListWrapper>(str).list;
                 jsonDic = kvList?.ToDictionary(kv => kv.key, kv => kv.value);
 
+                PrefsParam.ClearAllCachedObj();
                 cachedObj.Clear();
             }
         }

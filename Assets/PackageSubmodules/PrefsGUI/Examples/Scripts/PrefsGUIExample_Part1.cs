@@ -49,7 +49,8 @@ namespace PrefsGUI.Example
 
         public void DoGUI()
         {
-            prefsBool.DoGUI();
+            //prefsBool.DoGUI();
+            //Debug.Log("prefsInt: " + prefsInt.Get());
  
             // Return true if value was changed
             var changed = prefsInt.DoGUI();
@@ -57,7 +58,7 @@ namespace PrefsGUI.Example
             {
                 // Implicitly convert
                 int intValue = prefsInt;
-                Debug.Log("Changed. " + intValue);
+                //Debug.Log("Changed. " + intValue);
             }
 
             prefsFloat.DoGUI();

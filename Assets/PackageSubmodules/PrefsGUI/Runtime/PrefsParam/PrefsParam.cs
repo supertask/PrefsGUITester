@@ -31,6 +31,16 @@ namespace PrefsGUI
         }
 
         public virtual void Delete() => PrefsKVS.DeleteKey(key);
+        
+        protected virtual void ClearCachedObj() { }
+        
+        public static void ClearAllCachedObj()
+        {
+            foreach (var prefs in PrefsParam.all)
+            {
+                prefs.ClearCachedObj();
+            }
+        }
 
 
 

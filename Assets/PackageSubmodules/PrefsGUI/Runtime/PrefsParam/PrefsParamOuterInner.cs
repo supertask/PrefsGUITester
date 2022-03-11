@@ -92,6 +92,13 @@ namespace PrefsGUI
 
         public override void Set(OuterT v) { _Set(ToInner(v)); }
 
+
+        protected override void ClearCachedObj()
+        {
+            this.isCachedOuter = false;
+            this.isCachedObj = false;
+        }
+
         public override Type GetInnerType()
         {
             return typeof(InnerT);

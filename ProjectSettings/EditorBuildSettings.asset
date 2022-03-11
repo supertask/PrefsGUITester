@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PackageSubmodules/PrefsGUISyncUNET/Examples/SubScenes/PrefsGUISyncUNET_Offline.unity
     guid: 59bb0eaed0029c14da917a8589e82dbc
+  - enabled: 1
+    path: Assets/PackageSubmodules/PrefsGUISyncUNET/Examples/SubScenes/PrefsGUISyncUNET_Online_one_variable.unity
+    guid: 6f05c32c6b1a7af429ef495c09cb04a6
   m_configObjects: {}
